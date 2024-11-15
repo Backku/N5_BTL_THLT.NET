@@ -1,0 +1,38 @@
+E:\.net\ontap\học đợt 2\Lập trình ứng dụng doanh nghiệp trong .NET\lab1\SieuThiMini\SieuThiMini\bin\Debug\SieuThiMini.exe.config
+E:\.net\ontap\học đợt 2\Lập trình ứng dụng doanh nghiệp trong .NET\lab1\SieuThiMini\SieuThiMini\bin\Debug\SieuThiMini.exe
+E:\.net\ontap\học đợt 2\Lập trình ứng dụng doanh nghiệp trong .NET\lab1\SieuThiMini\SieuThiMini\bin\Debug\SieuThiMini.pdb
+E:\.net\ontap\học đợt 2\Lập trình ứng dụng doanh nghiệp trong .NET\lab1\SieuThiMini\SieuThiMini\obj\Debug\SieuThiMini.csproj.AssemblyReference.cache
+E:\.net\ontap\học đợt 2\Lập trình ứng dụng doanh nghiệp trong .NET\lab1\SieuThiMini\SieuThiMini\obj\Debug\SieuThiMini.Properties.Resources.resources
+E:\.net\ontap\học đợt 2\Lập trình ứng dụng doanh nghiệp trong .NET\lab1\SieuThiMini\SieuThiMini\obj\Debug\SieuThiMini.csproj.GenerateResource.cache
+E:\.net\ontap\học đợt 2\Lập trình ứng dụng doanh nghiệp trong .NET\lab1\SieuThiMini\SieuThiMini\obj\Debug\SieuThiMini.csproj.CoreCompileInputs.cache
+E:\.net\ontap\học đợt 2\Lập trình ứng dụng doanh nghiệp trong .NET\lab1\SieuThiMini\SieuThiMini\obj\Debug\SieuThiMini.exe
+E:\.net\ontap\học đợt 2\Lập trình ứng dụng doanh nghiệp trong .NET\lab1\SieuThiMini\SieuThiMini\obj\Debug\SieuThiMini.pdb
+E:\.net\ontap\học đợt 2\Lập trình ứng dụng doanh nghiệp trong .NET\lab1\SieuThiMini\SieuThiMini\obj\Debug\SieuThiMini.MainForm.resources
+E:\.net\ontap\học đợt 2\Lập trình ứng dụng doanh nghiệp trong .NET\lab1\SieuThiMini\SieuThiMini\bin\Debug\MetroFramework.dll
+E:\.net\ontap\học đợt 2\Lập trình ứng dụng doanh nghiệp trong .NET\lab1\SieuThiMini\SieuThiMini\bin\Debug\MetroFramework.Fonts.dll
+E:\.net\ontap\học đợt 2\Lập trình ứng dụng doanh nghiệp trong .NET\lab1\SieuThiMini\SieuThiMini\obj\Debug\SieuThiM.EE0BDF5B.Up2Date
+E:\.net\ontap\học đợt 2\Lập trình ứng dụng doanh nghiệp trong .NET\lab1\SieuThiMini\SieuThiMini\bin\Debug\MetroFramework.Design.dll
+E:\.net\ontap\học đợt 2\Lập trình ứng dụng doanh nghiệp trong .NET\lab1\SieuThiMini\SieuThiMini\obj\Debug\SieuThiMini.QLSANPHAM.resources
+E:\.net\ontap\học đợt 2\Lập trình ứng dụng doanh nghiệp trong .NET\lab1\SieuThiMini\SieuThiMini\obj\Debug\SieuThiMini.QLNHACUNGCAP.resources
+E:\.net\ontap\học đợt 2\Lập trình ứng dụng doanh nghiệp trong .NET\lab1\SieuThiMini\SieuThiMini\obj\Debug\SieuThiMini.QLDONHANG.resources
+E:\.net\ontap\học đợt 2\Lập trình ứng dụng doanh nghiệp trong .NET\lab1\SieuThiMini\SieuThiMini\obj\Debug\SieuThiMini.QLKHO.resources
+E:\.net\ontap\học đợt 2\Lập trình ứng dụng doanh nghiệp trong .NET\lab1\SieuThiMini\SieuThiMini\obj\Debug\SieuThiMini.BAOCAOTHONGKE.resources
+C:\Users\ACER\Desktop\BTL THLT.NET\SieuThiMini\SieuThiMini\bin\Debug\SieuThiMini.exe.config
+C:\Users\ACER\Desktop\BTL THLT.NET\SieuThiMini\SieuThiMini\bin\Debug\SieuThiMini.exe
+C:\Users\ACER\Desktop\BTL THLT.NET\SieuThiMini\SieuThiMini\bin\Debug\SieuThiMini.pdb
+C:\Users\ACER\Desktop\BTL THLT.NET\SieuThiMini\SieuThiMini\bin\Debug\MetroFramework.Design.dll
+C:\Users\ACER\Desktop\BTL THLT.NET\SieuThiMini\SieuThiMini\bin\Debug\MetroFramework.dll
+C:\Users\ACER\Desktop\BTL THLT.NET\SieuThiMini\SieuThiMini\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\ACER\Desktop\BTL THLT.NET\SieuThiMini\SieuThiMini\obj\Debug\SieuThiMini.csproj.AssemblyReference.cache
+C:\Users\ACER\Desktop\BTL THLT.NET\SieuThiMini\SieuThiMini\obj\Debug\SieuThiMini.BAOCAOTHONGKE.resources
+C:\Users\ACER\Desktop\BTL THLT.NET\SieuThiMini\SieuThiMini\obj\Debug\SieuThiMini.MainForm.resources
+C:\Users\ACER\Desktop\BTL THLT.NET\SieuThiMini\SieuThiMini\obj\Debug\SieuThiMini.Properties.Resources.resources
+C:\Users\ACER\Desktop\BTL THLT.NET\SieuThiMini\SieuThiMini\obj\Debug\SieuThiMini.QLDONHANG.resources
+C:\Users\ACER\Desktop\BTL THLT.NET\SieuThiMini\SieuThiMini\obj\Debug\SieuThiMini.QLKHO.resources
+C:\Users\ACER\Desktop\BTL THLT.NET\SieuThiMini\SieuThiMini\obj\Debug\SieuThiMini.QLNHACUNGCAP.resources
+C:\Users\ACER\Desktop\BTL THLT.NET\SieuThiMini\SieuThiMini\obj\Debug\SieuThiMini.QLSANPHAM.resources
+C:\Users\ACER\Desktop\BTL THLT.NET\SieuThiMini\SieuThiMini\obj\Debug\SieuThiMini.csproj.GenerateResource.cache
+C:\Users\ACER\Desktop\BTL THLT.NET\SieuThiMini\SieuThiMini\obj\Debug\SieuThiMini.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\BTL THLT.NET\SieuThiMini\SieuThiMini\obj\Debug\SieuThiM.EE0BDF5B.Up2Date
+C:\Users\ACER\Desktop\BTL THLT.NET\SieuThiMini\SieuThiMini\obj\Debug\SieuThiMini.exe
+C:\Users\ACER\Desktop\BTL THLT.NET\SieuThiMini\SieuThiMini\obj\Debug\SieuThiMini.pdb
