@@ -215,6 +215,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // panelTitle
             // 
@@ -234,7 +235,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(500, 25);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Tiệm Tạm Hóa Nhỏ";
+            this.label2.Text = "TIỆM TẠP HÓA NHỎ";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panelMain

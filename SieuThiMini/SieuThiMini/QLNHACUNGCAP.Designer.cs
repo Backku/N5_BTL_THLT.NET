@@ -41,10 +41,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.DiaChi = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.SDT = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TenNCC = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.MaNCC = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -70,8 +66,9 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(113, 43);
             this.button4.TabIndex = 15;
-            this.button4.Text = "Refesh";
+            this.button4.Text = "Tải Lại";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
             // button3
             // 
@@ -83,6 +80,7 @@
             this.button3.TabIndex = 14;
             this.button3.Text = "Xóa";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
             // button2
             // 
@@ -94,6 +92,7 @@
             this.button2.TabIndex = 13;
             this.button2.Text = "Sửa";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // button1
             // 
@@ -105,6 +104,7 @@
             this.button1.TabIndex = 12;
             this.button1.Text = "Thêm";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label4
             // 
@@ -170,50 +170,18 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Mã Nhà CC";
             // 
-            // DiaChi
-            // 
-            this.DiaChi.HeaderText = "Địa Chỉ";
-            this.DiaChi.MinimumWidth = 6;
-            this.DiaChi.Name = "DiaChi";
-            this.DiaChi.Width = 125;
-            // 
-            // SDT
-            // 
-            this.SDT.HeaderText = "Số Điện Thoại";
-            this.SDT.MinimumWidth = 6;
-            this.SDT.Name = "SDT";
-            this.SDT.Width = 300;
-            // 
-            // TenNCC
-            // 
-            this.TenNCC.HeaderText = "Tên NCC";
-            this.TenNCC.MinimumWidth = 6;
-            this.TenNCC.Name = "TenNCC";
-            this.TenNCC.Width = 125;
-            // 
-            // MaNCC
-            // 
-            this.MaNCC.HeaderText = "Mã NCC";
-            this.MaNCC.MinimumWidth = 6;
-            this.MaNCC.Name = "MaNCC";
-            this.MaNCC.Width = 125;
-            // 
             // dataGridView1
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.MaNCC,
-            this.TenNCC,
-            this.SDT,
-            this.DiaChi});
             this.dataGridView1.Location = new System.Drawing.Point(14, 27);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(862, 272);
+            this.dataGridView1.Size = new System.Drawing.Size(859, 272);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick_1);
             // 
             // groupBox2
             // 
@@ -292,6 +260,7 @@
             this.metroTextBox1.WaterMark = "Search here";
             this.metroTextBox1.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.metroTextBox1.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.metroTextBox1.TextChanged += new System.EventHandler(this.metroTextBox1_TextChanged_1);
             // 
             // QLNHACUNGCAP
             // 
@@ -328,10 +297,6 @@
         private MetroFramework.Controls.MetroTextBox metroTextBox1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DiaChi;
-        private System.Windows.Forms.DataGridViewTextBoxColumn SDT;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TenNCC;
-        private System.Windows.Forms.DataGridViewTextBoxColumn MaNCC;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox1;

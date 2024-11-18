@@ -61,12 +61,24 @@
     <Compile Include="BAOCAOTHONGKE.Designer.cs">
       <DependentUpon>BAOCAOTHONGKE.cs</DependentUpon>
     </Compile>
-    <Compile Include="DBconnect.cs" />
+    <Compile Include="FormHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHoaDon.Designer.cs">
+      <DependentUpon>FormHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KetNoi.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NHAPKHO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NHAPKHO.Designer.cs">
+      <DependentUpon>NHAPKHO.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -94,11 +106,18 @@
     <Compile Include="QLSANPHAM.Designer.cs">
       <DependentUpon>QLSANPHAM.cs</DependentUpon>
     </Compile>
+    <Compile Include="SANPHAMBLL.cs" />
     <EmbeddedResource Include="BAOCAOTHONGKE.resx">
       <DependentUpon>BAOCAOTHONGKE.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormHoaDon.resx">
+      <DependentUpon>FormHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NHAPKHO.resx">
+      <DependentUpon>NHAPKHO.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

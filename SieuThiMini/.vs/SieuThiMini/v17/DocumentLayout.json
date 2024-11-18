@@ -1,46 +1,78 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ACER\\Desktop\\BTL THLT.NET\\SieuThiMini\\",
+  "WorkspaceRootPath": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|C:\\Users\\ACER\\Desktop\\BTL THLT.NET\\SieuThiMini\\sieuthimini\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|solutionrelative:sieuthimini\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|c:\\users\\acer\\documents\\zalo received files\\sieuthimini\\sieuthimini\\formhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|solutionrelative:sieuthimini\\formhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|C:\\Users\\ACER\\Desktop\\BTL THLT.NET\\SieuThiMini\\sieuthimini\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|solutionrelative:sieuthimini\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|c:\\users\\acer\\documents\\zalo received files\\sieuthimini\\sieuthimini\\formhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|solutionrelative:sieuthimini\\formhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|C:\\Users\\ACER\\Desktop\\BTL THLT.NET\\SieuThiMini\\sieuthimini\\qlnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|solutionrelative:sieuthimini\\qlnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|C:\\Users\\ACER\\Desktop\\BTL THLT.NET\\SieuThiMini\\sieuthimini\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|solutionrelative:sieuthimini\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|C:\\Users\\ACER\\Desktop\\BTL THLT.NET\\SieuThiMini\\sieuthimini\\qldonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|solutionrelative:sieuthimini\\qldonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|C:\\Users\\ACER\\Desktop\\BTL THLT.NET\\SieuThiMini\\sieuthimini\\qlsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|solutionrelative:sieuthimini\\qlsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|c:\\users\\acer\\desktop\\btl thlt.net\\sieuthimini\\sieuthimini\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\sieuthimini\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|solutionrelative:sieuthimini\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|c:\\users\\acer\\desktop\\btl thlt.net\\sieuthimini\\sieuthimini\\baocaothongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\sieuthimini\\qldonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|solutionrelative:sieuthimini\\qldonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\sieuthimini\\qldonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|solutionrelative:sieuthimini\\qldonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\sieuthimini\\nhapkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|solutionrelative:sieuthimini\\nhapkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\sieuthimini\\nhapkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|solutionrelative:sieuthimini\\nhapkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\sieuthimini\\baocaothongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|solutionrelative:sieuthimini\\baocaothongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|C:\\Users\\ACER\\Desktop\\BTL THLT.NET\\SieuThiMini\\sieuthimini\\qlkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\sieuthimini\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|solutionrelative:sieuthimini\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\sieuthimini\\baocaothongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|solutionrelative:sieuthimini\\baocaothongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|c:\\users\\acer\\documents\\zalo received files\\sieuthimini\\sieuthimini\\qlkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|solutionrelative:sieuthimini\\qlkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\sieuthimini\\qlkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|solutionrelative:sieuthimini\\qlkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|C:\\Users\\ACER\\Desktop\\BTL THLT.NET\\SieuThiMini\\sieuthimini\\qldonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|solutionrelative:sieuthimini\\qldonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\sieuthimini\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|solutionrelative:sieuthimini\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\sieuthimini\\qlsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|solutionrelative:sieuthimini\\qlsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\sieuthimini\\qlnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|solutionrelative:sieuthimini\\qlnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\sieuthimini\\qlsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|solutionrelative:sieuthimini\\qlsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\sieuthimini\\qlnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|solutionrelative:sieuthimini\\qlnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\sieuthimini\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8198ED0-5EA5-416B-B1D0-3B42FAFE0AA0}|SieuThiMini\\SieuThiMini.csproj|solutionrelative:sieuthimini\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,24 +90,207 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL THLT.NET\\SieuThiMini\\SieuThiMini\\Program.cs",
-              "RelativeDocumentMoniker": "SieuThiMini\\Program.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\BTL THLT.NET\\SieuThiMini\\SieuThiMini\\Program.cs",
-              "RelativeToolTip": "SieuThiMini\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "FormHoaDon.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\FormHoaDon.cs",
+              "RelativeDocumentMoniker": "SieuThiMini\\FormHoaDon.cs",
+              "ToolTip": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\FormHoaDon.cs",
+              "RelativeToolTip": "SieuThiMini\\FormHoaDon.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwBUAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T03:12:57.692Z",
+              "WhenOpened": "2024-11-17T16:15:41.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormHoaDon.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\FormHoaDon.cs",
+              "RelativeDocumentMoniker": "SieuThiMini\\FormHoaDon.cs",
+              "ToolTip": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\FormHoaDon.cs [Design]",
+              "RelativeToolTip": "SieuThiMini\\FormHoaDon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T16:10:13.197Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "KetNoi.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\KetNoi.cs",
+              "RelativeDocumentMoniker": "SieuThiMini\\KetNoi.cs",
+              "ToolTip": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\KetNoi.cs",
+              "RelativeToolTip": "SieuThiMini\\KetNoi.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAwwCAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T04:03:29.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "QLNHACUNGCAP.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\QLNHACUNGCAP.cs",
+              "RelativeDocumentMoniker": "SieuThiMini\\QLNHACUNGCAP.cs",
+              "ToolTip": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\QLNHACUNGCAP.cs",
+              "RelativeToolTip": "SieuThiMini\\QLNHACUNGCAP.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAIwF0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T03:27:51.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "QLSANPHAM.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\QLSANPHAM.cs",
+              "RelativeDocumentMoniker": "SieuThiMini\\QLSANPHAM.cs",
+              "ToolTip": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\QLSANPHAM.cs",
+              "RelativeToolTip": "SieuThiMini\\QLSANPHAM.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAIwG8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T03:19:05.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\Program.cs",
+              "RelativeDocumentMoniker": "SieuThiMini\\Program.cs",
+              "ToolTip": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\Program.cs",
+              "RelativeToolTip": "SieuThiMini\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwBIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T12:14:52.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "QLSANPHAM.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\QLSANPHAM.cs",
+              "RelativeDocumentMoniker": "SieuThiMini\\QLSANPHAM.cs",
+              "ToolTip": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\QLSANPHAM.cs [Design]",
+              "RelativeToolTip": "SieuThiMini\\QLSANPHAM.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T18:09:34.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "QLNHACUNGCAP.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\QLNHACUNGCAP.cs",
+              "RelativeDocumentMoniker": "SieuThiMini\\QLNHACUNGCAP.cs",
+              "ToolTip": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\QLNHACUNGCAP.cs [Design]",
+              "RelativeToolTip": "SieuThiMini\\QLNHACUNGCAP.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T18:30:07.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "QLKHO.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\QLKHO.cs",
+              "RelativeDocumentMoniker": "SieuThiMini\\QLKHO.cs",
+              "ToolTip": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\QLKHO.cs [Design]",
+              "RelativeToolTip": "SieuThiMini\\QLKHO.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:01:36.681Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NHAPKHO.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\NHAPKHO.cs",
+              "RelativeDocumentMoniker": "SieuThiMini\\NHAPKHO.cs",
+              "ToolTip": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\NHAPKHO.cs [Design]",
+              "RelativeToolTip": "SieuThiMini\\NHAPKHO.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T12:24:52.088Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NHAPKHO.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\NHAPKHO.cs",
+              "RelativeDocumentMoniker": "SieuThiMini\\NHAPKHO.cs",
+              "ToolTip": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\NHAPKHO.cs",
+              "RelativeToolTip": "SieuThiMini\\NHAPKHO.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAUwHQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T12:52:51.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\MainForm.cs",
+              "RelativeDocumentMoniker": "SieuThiMini\\MainForm.cs",
+              "ToolTip": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\MainForm.cs [Design]",
+              "RelativeToolTip": "SieuThiMini\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T09:52:42.679Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "QLKHO.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\QLKHO.cs",
+              "RelativeDocumentMoniker": "SieuThiMini\\QLKHO.cs",
+              "ToolTip": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\QLKHO.cs",
+              "RelativeToolTip": "SieuThiMini\\QLKHO.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T12:53:37.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\MainForm.cs",
+              "RelativeDocumentMoniker": "SieuThiMini\\MainForm.cs",
+              "ToolTip": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\MainForm.cs",
+              "RelativeToolTip": "SieuThiMini\\MainForm.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAswEcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T01:27:55.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QLDONHANG.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\QLDONHANG.cs",
+              "RelativeDocumentMoniker": "SieuThiMini\\QLDONHANG.cs",
+              "ToolTip": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\QLDONHANG.cs [Design]",
+              "RelativeToolTip": "SieuThiMini\\QLDONHANG.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T18:38:55.447Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QLDONHANG.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\QLDONHANG.cs",
+              "RelativeDocumentMoniker": "SieuThiMini\\QLDONHANG.cs",
+              "ToolTip": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\QLDONHANG.cs",
+              "RelativeToolTip": "SieuThiMini\\QLDONHANG.cs",
+              "ViewState": "AgIAAPgAAAAAAAAAAAAAABABAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T18:55:23.861Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "BAOCAOTHONGKE.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL THLT.NET\\SieuThiMini\\SieuThiMini\\BAOCAOTHONGKE.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\BAOCAOTHONGKE.cs",
               "RelativeDocumentMoniker": "SieuThiMini\\BAOCAOTHONGKE.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\BTL THLT.NET\\SieuThiMini\\SieuThiMini\\BAOCAOTHONGKE.cs [Design]",
+              "ToolTip": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\BAOCAOTHONGKE.cs [Design]",
               "RelativeToolTip": "SieuThiMini\\BAOCAOTHONGKE.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T19:12:26.755Z",
@@ -84,98 +299,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "QLDONHANG.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL THLT.NET\\SieuThiMini\\SieuThiMini\\QLDONHANG.cs",
-              "RelativeDocumentMoniker": "SieuThiMini\\QLDONHANG.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\BTL THLT.NET\\SieuThiMini\\SieuThiMini\\QLDONHANG.cs [Design]",
-              "RelativeToolTip": "SieuThiMini\\QLDONHANG.cs [Design]",
+              "Title": "BAOCAOTHONGKE.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\BAOCAOTHONGKE.cs",
+              "RelativeDocumentMoniker": "SieuThiMini\\BAOCAOTHONGKE.cs",
+              "ToolTip": "C:\\Users\\ACER\\Documents\\Zalo Received Files\\SieuThiMini\\SieuThiMini\\BAOCAOTHONGKE.cs",
+              "RelativeToolTip": "SieuThiMini\\BAOCAOTHONGKE.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAhwEYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T18:38:55.447Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "QLNHACUNGCAP.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL THLT.NET\\SieuThiMini\\SieuThiMini\\QLNHACUNGCAP.cs",
-              "RelativeDocumentMoniker": "SieuThiMini\\QLNHACUNGCAP.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\BTL THLT.NET\\SieuThiMini\\SieuThiMini\\QLNHACUNGCAP.cs [Design]",
-              "RelativeToolTip": "SieuThiMini\\QLNHACUNGCAP.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T18:30:07.344Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "QLKHO.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL THLT.NET\\SieuThiMini\\SieuThiMini\\QLKHO.cs",
-              "RelativeDocumentMoniker": "SieuThiMini\\QLKHO.cs",
-              "ToolTip": "E:\\.net\\ontap\\h\u1ECDc \u0111\u1EE3t 2\\L\u1EADp tr\u00ECnh \u1EE9ng d\u1EE5ng doanh nghi\u1EC7p trong .NET\\lab1\\SieuThiMini\\SieuThiMini\\QLKHO.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T19:01:36.681Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL THLT.NET\\SieuThiMini\\SieuThiMini\\MainForm.cs",
-              "RelativeDocumentMoniker": "SieuThiMini\\MainForm.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\BTL THLT.NET\\SieuThiMini\\SieuThiMini\\MainForm.cs",
-              "RelativeToolTip": "SieuThiMini\\MainForm.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAUwD8AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T01:27:55.215Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "QLSANPHAM.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL THLT.NET\\SieuThiMini\\SieuThiMini\\QLSANPHAM.cs",
-              "RelativeDocumentMoniker": "SieuThiMini\\QLSANPHAM.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\BTL THLT.NET\\SieuThiMini\\SieuThiMini\\QLSANPHAM.cs [Design]",
-              "RelativeToolTip": "SieuThiMini\\QLSANPHAM.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T18:09:34.325Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL THLT.NET\\SieuThiMini\\SieuThiMini\\MainForm.cs",
-              "RelativeDocumentMoniker": "SieuThiMini\\MainForm.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\BTL THLT.NET\\SieuThiMini\\SieuThiMini\\MainForm.cs [Design]",
-              "RelativeToolTip": "SieuThiMini\\MainForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T09:52:42.679Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "QLDONHANG.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL THLT.NET\\SieuThiMini\\SieuThiMini\\QLDONHANG.cs",
-              "RelativeDocumentMoniker": "SieuThiMini\\QLDONHANG.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\BTL THLT.NET\\SieuThiMini\\SieuThiMini\\QLDONHANG.cs",
-              "RelativeToolTip": "SieuThiMini\\QLDONHANG.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T18:55:23.861Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DBconnect.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\BTL THLT.NET\\SieuThiMini\\SieuThiMini\\DBconnect.cs",
-              "RelativeDocumentMoniker": "SieuThiMini\\DBconnect.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\BTL THLT.NET\\SieuThiMini\\SieuThiMini\\DBconnect.cs",
-              "RelativeToolTip": "SieuThiMini\\DBconnect.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T01:57:09.518Z",
+              "WhenOpened": "2024-11-16T03:01:23.855Z",
               "EditorCaption": ""
             }
           ]

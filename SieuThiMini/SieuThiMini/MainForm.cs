@@ -13,11 +13,10 @@ namespace SieuThiMini
 {
     public partial class MainForm : Form
     {
-       
+        KetNoi kn = new KetNoi();
         public MainForm()
         {
             InitializeComponent();
-           
         }
         private Form activeform = null;
         public void openChildform(Form childform)
@@ -62,6 +61,15 @@ namespace SieuThiMini
         private void btnthoat_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            if (activeform != null)
+            {
+                activeform.Close(); // Đóng form con hiện tại
+            }
+            label2.Text = "TIỆM TẠP HÓA NHỎ";
         }
     }
 }
