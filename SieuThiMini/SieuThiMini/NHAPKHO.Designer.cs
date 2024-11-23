@@ -145,6 +145,7 @@
             this.Name = "NHAPKHO";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "NHAPKHO";
+            this.Load += new System.EventHandler(this.NHAPKHO_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);

@@ -23,14 +23,15 @@ namespace SieuThiMini
         {
             try
             {
-                // Truy vấn dữ liệu từ bảng NHAPKHO và SANPHAM
+                // Truy vấn dữ liệu từ bảng NHAPKHO và SANPHAM, sắp xếp theo MaSP từ thấp đến cao
                 string query = @"
-                                SELECT 
-                                    n.MaSP, 
-                                    s.TenSP, 
-                                    n.Soluongton 
-                                FROM NHAPKHO n
-                                INNER JOIN SANPHAM s ON n.MaSP = s.MaSP";
+                        SELECT 
+                            n.MaSP, 
+                            s.TenSP, 
+                            n.Soluongton 
+                        FROM NHAPKHO n
+                        INNER JOIN SANPHAM s ON n.MaSP = s.MaSP
+                        ORDER BY n.MaSP ASC"; // Sắp xếp MaSP theo thứ tự tăng dần
 
                 DataTable data = ketNoi.ExecuteQuery(query);
 
@@ -41,7 +42,7 @@ namespace SieuThiMini
                 comboBox2.DataSource = data;
 
                 // Hiển thị giá trị kết hợp của TenSP và Soluongton trong ComboBox
-                comboBox2.DisplayMember = "Display";  // Hiển thị tên sản phẩm và số lượng tồn
+                comboBox2.DisplayMember = "Display"; // Hiển thị tên sản phẩm và số lượng tồn
 
                 // Đặt ComboBox không chọn mục nào
                 comboBox2.SelectedIndex = -1;
@@ -56,43 +57,74 @@ namespace SieuThiMini
         {
             try
             {
-                // Kiểm tra nếu người dùng đã chọn sản phẩm và nhập số lượng hợp lệ
+                // Kiểm tra xem ComboBox có sản phẩm được chọn và số lượng là số hợp lệ không
                 if (comboBox2.SelectedIndex != -1 && int.TryParse(textBox4.Text.Trim(), out int soLuong))
                 {
-                    // Lấy MaSP và TenSP từ ComboBox
+                    // Lấy thông tin sản phẩm được chọn từ ComboBox
                     DataRowView selectedItem = (DataRowView)comboBox2.SelectedItem;
-                    int maSP = (int)selectedItem["MaSP"];  // Lấy MaSP từ ComboBox (giả sử là kiểu int)
-                    string tenSP = selectedItem["TenSP"].ToString().Trim();  // Lấy TenSP từ ComboBox
+                    int maSP = (int)selectedItem["MaSP"];
+                    string tenSP = selectedItem["TenSP"].ToString().Trim();
 
-                    // Lấy GiaBan từ bảng SANPHAM
+                    // Kiểm tra số lượng tồn trong kho
+                    string queryCheckSoluong = $"SELECT Soluongton FROM NHAPKHO WHERE MaSP = {maSP}";
+                    DataTable dtCheckSoluong = ketNoi.ExecuteQuery(queryCheckSoluong);
+
+                    if (dtCheckSoluong.Rows.Count > 0)
+                    {
+                        int soLuongTon = Convert.ToInt32(dtCheckSoluong.Rows[0]["Soluongton"]);
+
+                        // Kiểm tra nếu số lượng yêu cầu lớn hơn số lượng tồn
+                        if (soLuong > soLuongTon)
+                        {
+                            // Hiển thị thông báo lỗi nếu số lượng tồn không đủ
+                            MessageBox.Show($"Số lượng tồn kho không đủ. Hiện chỉ còn {soLuongTon} sản phẩm!",
+                                            "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            return;
+                        }
+                    }
+                    else
+                    {
+                        // Hiển thị thông báo nếu không tìm thấy sản phẩm trong kho
+                        MessageBox.Show("Không tìm thấy sản phẩm trong kho!",
+                                        "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+
+                    // Lấy giá bán của sản phẩm
                     string queryGiaBan = $"SELECT Gia FROM SANPHAM WHERE MaSP = {maSP}";
-                    DataTable dtGiaBan = ketNoi.ExecuteQuery(queryGiaBan); // Gọi ExecuteQuery với câu lệnh SQL
+                    DataTable dtGiaBan = ketNoi.ExecuteQuery(queryGiaBan);
 
                     if (dtGiaBan.Rows.Count > 0)
                     {
                         decimal giaBan = Convert.ToDecimal(dtGiaBan.Rows[0]["Gia"]);
-
-                        // Tính ThanhTien
                         decimal thanhTien = giaBan * soLuong;
 
-                        // Thêm vào DataGridView
+                        // Thêm sản phẩm vào DataGridView
                         dataGridView1.Rows.Add(maSP, tenSP, soLuong, giaBan, thanhTien);
 
-                        MessageBox.Show("Thêm sản phẩm vào giỏ thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        // Hiển thị thông báo thêm sản phẩm thành công
+                        MessageBox.Show("Thêm sản phẩm vào giỏ thành công!",
+                                        "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     else
                     {
-                        MessageBox.Show("Không tìm thấy giá sản phẩm!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        // Hiển thị thông báo nếu không tìm thấy giá bán
+                        MessageBox.Show("Không tìm thấy giá sản phẩm!",
+                                        "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
                 else
                 {
-                    MessageBox.Show("Vui lòng chọn sản phẩm và nhập số lượng hợp lệ!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    // Hiển thị thông báo nếu chưa chọn sản phẩm hoặc số lượng không hợp lệ
+                    MessageBox.Show("Vui lòng chọn sản phẩm và nhập số lượng hợp lệ!",
+                                    "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Đã xảy ra lỗi: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                // Hiển thị thông báo lỗi nếu có ngoại lệ xảy ra
+                MessageBox.Show("Đã xảy ra lỗi: " + ex.Message,
+                                "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -201,8 +233,8 @@ namespace SieuThiMini
 
                 // Tạo câu lệnh SQL để lưu vào bảng THONGKE
                 string queryThongKe = @"
-                                INSERT INTO THONGKE (MaDH, TenKH, Diachi, Ngaymua, TongHD)
-                                VALUES ('" + maDH + "', N'" + tenKhachHang + "', N'" + diaChi + "', '" + thoiGian.ToString("yyyy-MM-dd HH:mm:ss") + "', " + tongHD + ")";
+                        INSERT INTO THONGKE (MaDH, TenKH, Diachi, Ngaymua, TongHD)
+                        VALUES ('" + maDH + "', N'" + tenKhachHang + "', N'" + diaChi + "', '" + thoiGian.ToString("yyyy-MM-dd HH:mm:ss") + "', " + tongHD + ")";
 
                 // Thực thi câu lệnh SQL
                 ketNoi.ExecuteQuery(queryThongKe);
@@ -216,27 +248,31 @@ namespace SieuThiMini
                         int soLuong = Convert.ToInt32(row.Cells["SoLuong"].Value);
                         decimal thanhTien = Convert.ToDecimal(row.Cells["ThanhTien"].Value);
 
-                        // Tạo câu lệnh SQL để lưu vào bảng DONHANG
+                        // Tạo câu lệnh SQL để lưu vào bảng DONHANG bao gồm cả MaDH
                         string queryDonHang = @"
-            INSERT INTO DONHANG (MaSP, SoLuong, Thanhtien)
-            VALUES (" + maSP + ", " + soLuong + ", " + thanhTien + ")";
+                        INSERT INTO DONHANG (MaDH, MaSP, SoLuong, Thanhtien)
+                        VALUES (" + maDH + ", " + maSP + ", " + soLuong + ", " + thanhTien + ")";
 
                         // Thực thi câu lệnh SQL
                         ketNoi.ExecuteQuery(queryDonHang);
 
                         // Cập nhật Số lượng tồn trong bảng NHAPKHO
                         string queryUpdateSoluong = @"
-                    UPDATE NHAPKHO 
-                    SET Soluongton = Soluongton - " + soLuong + @"
-                    WHERE MaSP = " + maSP;
+                        UPDATE NHAPKHO 
+                        SET Soluongton = Soluongton - " + soLuong + @"
+                        WHERE MaSP = " + maSP;
 
                         // Thực thi câu lệnh SQL để cập nhật kho
                         ketNoi.ExecuteQuery(queryUpdateSoluong);
+
                     }
                 }
 
                 // Hiển thị thông báo thành công
                 MessageBox.Show("Tạo hóa đơn và cập nhật kho thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                // Kích hoạt nút xuất hóa đơn (button6)
+                button6.Enabled = true;
             }
             catch (Exception ex)
             {
@@ -251,6 +287,7 @@ namespace SieuThiMini
                 // Get the values from TextBoxes and DataGridView
                 string maDH = textBox1.Text.Trim();  // Order ID from TextBox
                 string tenKhachHang = textBox5.Text.Trim();  // Customer Name from TextBox
+                DateTime ngayMua = dateTimePicker1.Value; // Lấy ngày mua từ DateTimePicker
                 string diaChi = textBox3.Text.Trim();  // Address from TextBox
 
                 // Calculate the total amount from DataGridView
@@ -264,7 +301,7 @@ namespace SieuThiMini
                 }
 
                 // Open FormHoaDon and pass the required data
-                FormHoaDon formHoaDon = new FormHoaDon(maDH, tenKhachHang, diaChi, tongHD, dataGridView1.Rows);
+                FormHoaDon formHoaDon = new FormHoaDon(maDH, tenKhachHang, diaChi,ngayMua, tongHD, dataGridView1.Rows);
                 formHoaDon.ShowDialog(); // Show FormHoaDon as a modal dialog
             }
             catch (Exception ex)

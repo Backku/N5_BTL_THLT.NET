@@ -64,6 +64,7 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(853, 421);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
             // 
             // label1
             // 
@@ -72,7 +73,7 @@
             this.label1.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(15, 544);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 19);
+            this.label1.Size = new System.Drawing.Size(44, 16);
             this.label1.TabIndex = 50;
             this.label1.Text = "Label1";
             // 
@@ -99,13 +100,14 @@
             this.button7.TabIndex = 48;
             this.button7.Text = "Xem chi tiết HĐ";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(15, 492);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(137, 19);
+            this.label2.Size = new System.Drawing.Size(112, 16);
             this.label2.TabIndex = 51;
             this.label2.Text = "Tìm Kiếm Mã ĐH:";
             // 
@@ -150,7 +152,7 @@
             // 
             // BAOCAOTHONGKE
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(911, 571);

@@ -116,5 +116,17 @@ namespace SieuThiMini
                 MessageBox.Show("Đã xảy ra lỗi khi tải dữ liệu: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void NHAPKHO_Load(object sender, EventArgs e)
+        {
+            // Thiết lập các giá trị cho DomainUpDown
+            for (int i = 1; i <= 100; i++)
+            {
+                domainUpDown1.Items.Add(i.ToString());
+            }
+
+            // Đặt giá trị mặc định cho DomainUpDown
+            domainUpDown1.SelectedItem = "0";
+        }
     }
 }

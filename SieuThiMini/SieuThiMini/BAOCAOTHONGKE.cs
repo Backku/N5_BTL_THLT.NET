@@ -70,5 +70,76 @@ namespace SieuThiMini
             LoadData();
             metroTextBox1.Text = string.Empty;
         }
+
+        private void dataGridView1_SelectionChanged(object sender, EventArgs e)
+        {
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+                button7.Enabled = true; // Bật nút "Xem chi tiết HĐ"
+            }
+            else
+            {
+                button7.Enabled = false; // Tắt nút nếu không chọn dòng
+            }
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+                // Lấy thông tin từ dòng được chọn
+                string maDH = dataGridView1.SelectedRows[0].Cells["MaDH"].Value.ToString();
+                string tenKH = dataGridView1.SelectedRows[0].Cells["TenKH"].Value.ToString();
+                string diaChi = dataGridView1.SelectedRows[0].Cells["DiaChi"].Value.ToString();
+                DateTime ngayMua = Convert.ToDateTime(dataGridView1.SelectedRows[0].Cells["NgayMua"].Value);
+                decimal tongHD = Convert.ToDecimal(dataGridView1.SelectedRows[0].Cells["TongHD"].Value);
+
+                // Truy vấn dữ liệu chi tiết hóa đơn
+                string query = @"
+            SELECT 
+                DONHANG.MaSP, 
+                SANPHAM.TenSP, 
+                SANPHAM.Gia, 
+                DONHANG.SoLuong, 
+                DONHANG.ThanhTien
+            FROM 
+                DONHANG
+            INNER JOIN 
+                SANPHAM 
+            ON 
+                DONHANG.MaSP = SANPHAM.MaSP
+            WHERE 
+                DONHANG.MaDH = '" + maDH + "'";
+
+                DataTable orderDetails = ketNoi.ExecuteQuery(query);
+
+                // Tạo danh sách các dòng DataGridViewRow từ DataTable
+                DataGridView dgvTemp = new DataGridView(); // Tạo DataGridView tạm
+                dgvTemp.Columns.Add("MaSP", "Mã Sản Phẩm");
+                dgvTemp.Columns.Add("TenSP", "Tên Sản Phẩm");
+                dgvTemp.Columns.Add("SoLuong", "Số Lượng");
+                dgvTemp.Columns.Add("Gia", "Giá Bán");
+                dgvTemp.Columns.Add("ThanhTien", "Thành Tiền");
+
+                foreach (DataRow row in orderDetails.Rows)
+                {
+                    dgvTemp.Rows.Add(
+                        row["MaSP"],
+                        row["TenSP"],
+                        row["SoLuong"],
+                        row["Gia"],
+                        row["ThanhTien"]
+                    );
+                }
+
+                // Truyền dữ liệu sang FormHoaDon
+                FormHoaDon formHoaDon = new FormHoaDon(maDH, tenKH, diaChi,ngayMua, tongHD, dgvTemp.Rows);
+                formHoaDon.Show();
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn một hóa đơn để xem chi tiết!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
     }
 }
