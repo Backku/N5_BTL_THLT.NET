@@ -57,14 +57,11 @@ namespace SieuThiMini
         {
             try
             {
-                // Kiểm tra xem ComboBox có sản phẩm được chọn và số lượng là số hợp lệ không
                 if (comboBox2.SelectedIndex != -1 && int.TryParse(textBox4.Text.Trim(), out int soLuong))
                 {
-                    // Lấy thông tin sản phẩm được chọn từ ComboBox
                     DataRowView selectedItem = (DataRowView)comboBox2.SelectedItem;
                     int maSP = (int)selectedItem["MaSP"];
                     string tenSP = selectedItem["TenSP"].ToString().Trim();
-
                     // Kiểm tra số lượng tồn trong kho
                     string queryCheckSoluong = $"SELECT Soluongton FROM NHAPKHO WHERE MaSP = {maSP}";
                     DataTable dtCheckSoluong = ketNoi.ExecuteQuery(queryCheckSoluong);
@@ -90,7 +87,6 @@ namespace SieuThiMini
                         return;
                     }
 
-                    // Lấy giá bán của sản phẩm
                     string queryGiaBan = $"SELECT Gia FROM SANPHAM WHERE MaSP = {maSP}";
                     DataTable dtGiaBan = ketNoi.ExecuteQuery(queryGiaBan);
 
@@ -99,32 +95,31 @@ namespace SieuThiMini
                         decimal giaBan = Convert.ToDecimal(dtGiaBan.Rows[0]["Gia"]);
                         decimal thanhTien = giaBan * soLuong;
 
-                        // Thêm sản phẩm vào DataGridView
-                        dataGridView1.Rows.Add(maSP, tenSP, soLuong, giaBan, thanhTien);
+                        // Đảm bảo cột Gia tồn tại
+                        if (!dataGridView1.Columns.Contains("Gia"))
+                        {
+                            dataGridView1.Columns.Add("Gia", "Giá Bán");
+                        }
 
-                        // Hiển thị thông báo thêm sản phẩm thành công
-                        MessageBox.Show("Thêm sản phẩm vào giỏ thành công!",
-                                        "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        // Thêm dữ liệu chính xác vào DataGridView
+                        int rowIndex = dataGridView1.Rows.Add(maSP, tenSP, soLuong, giaBan, thanhTien);
+                        dataGridView1.Rows[rowIndex].Cells["Gia"].Value = giaBan;
+
+                        MessageBox.Show("Thêm sản phẩm vào giỏ thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     else
                     {
-                        // Hiển thị thông báo nếu không tìm thấy giá bán
-                        MessageBox.Show("Không tìm thấy giá sản phẩm!",
-                                        "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("Không tìm thấy giá sản phẩm!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
                 else
                 {
-                    // Hiển thị thông báo nếu chưa chọn sản phẩm hoặc số lượng không hợp lệ
-                    MessageBox.Show("Vui lòng chọn sản phẩm và nhập số lượng hợp lệ!",
-                                    "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Vui lòng chọn sản phẩm và nhập số lượng hợp lệ!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
             catch (Exception ex)
             {
-                // Hiển thị thông báo lỗi nếu có ngoại lệ xảy ra
-                MessageBox.Show("Đã xảy ra lỗi: " + ex.Message,
-                                "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Đã xảy ra lỗi: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
